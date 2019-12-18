@@ -26,7 +26,7 @@ h1 {
     line-height: 1.1;
     text-align: center;
     color: white;
-    background-color: steelblue;
+    background-color: black;
     margin: 0;
     text-transform: uppercase;
     padding: 20px 0;
@@ -37,6 +37,7 @@ h1 {
 #message {
     display: inline-block;
     width: 20%;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #stripe {
@@ -52,7 +53,7 @@ button {
     text-transform: uppercase;
     height: 100%;
     font-weight: 700;
-    color: steelblue;
+    color: #4e6b80;
     letter-spacing: 1px;
     font-size: inherit;
     transition: all 0.3s;
@@ -63,11 +64,11 @@ button {
 
 button:hover {
     color:white;
-    background: steelblue;
+    background: #4e6b80;
     
 }
 
 .selected {
     color:white;
-    background: steelblue;
+    background: #4e6b80;
 }
